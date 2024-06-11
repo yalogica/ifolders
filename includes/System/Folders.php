@@ -63,7 +63,7 @@ class Folders {
             'input' => 'html',
             'html'  => "
                 <button type='button' class='button-secondary button-large' onclick='IFOLDERS.APP.fn.replacemedia.open(this)' data-attachment-id='{$post->ID}'>Replace Image</button>
-                <p><strong>Warning:</strong> Replacing this image with another will permanently delete the current file and overwrite it with the new one. It is also recommended to use the same image size for the new image as the image being replaced, otherwise the recreated thumbnails will have different sizes and names, which may cause links to the old thumbnails to become broken.</p>" // js-emr-open-dialog emr-dialog__open
+                <p><strong>Warning:</strong> Replacing this image with another will permanently delete the current file and overwrite it with the new one. It is also recommended to use the same image size for the new image as the image being replaced, otherwise the recreated thumbnails will have different sizes and names, which may cause links to the old thumbnails to become broken.</p>"
         ];
         return $fields;
     }
@@ -344,11 +344,11 @@ class Folders {
                 'ticket' => (bool) ConfigModel::getTicket(),
                 'max_upload_size' => size_format( wp_max_upload_size() )
             ],
-            'msg' => HelperModel::getMessagesForSidebar(),
             'api' => [
                 'nonce' => wp_create_nonce( 'wp_rest' ),
                 'url' => esc_url_raw( rest_url( IFOLDERS_PLUGIN_REST_URL ) )
-            ]
+            ],
+            'msg' => HelperModel::getMessagesForSidebar()
         ];
 
         return $globals;

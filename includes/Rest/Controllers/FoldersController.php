@@ -122,8 +122,8 @@ class FoldersController {
             IFOLDERS_PLUGIN_REST_URL,
             '/import-csv',
             [
-                'methods'             => \WP_REST_Server::CREATABLE,
-                'callback'            => [ $this, 'importCSV' ],
+                'methods' => \WP_REST_Server::CREATABLE,
+                'callback' => [ $this, 'importCSV' ],
                 'permission_callback' => [ $this, 'canUploadFiles' ]
             ]
         );
@@ -132,8 +132,8 @@ class FoldersController {
             IFOLDERS_PLUGIN_REST_URL,
             '/replace-media',
             [
-                'methods'             => \WP_REST_Server::CREATABLE,
-                'callback'            => [ $this, 'replaceMedia' ],
+                'methods' => \WP_REST_Server::CREATABLE,
+                'callback' => [ $this, 'replaceMedia' ],
                 'permission_callback' => [ $this, 'canUploadFiles' ]
             ]
         );

@@ -1,9 +1,9 @@
-=== iFolders - Ultimate WordPress Media Library Folder Manager  ===
+=== iFolders - Ultimate WordPress Media Library Folders & File Manager  ===
 Contributors: Avirtum
-Tags: folders, media library, replace, file manager, attachment
+Tags: folders, media library, media folders, gallery, file manager
 Requires at least: 4.6
 Tested up to: 6.5
-Stable tag: 2.4.0
+Stable tag: 2.5.0
 Requires PHP: 7.0
 License: GPLv3
 
@@ -116,12 +116,12 @@ We realize that not all themes and plugins have the same structure and as a resu
 * and more…
 
 ###🎓 CONCLUSION
-Transform your WordPress media management experience with the iFolders plugin. Simplify organization, enhance efficiency, and take control of your content like never before. Try iFolders today and unlock the full potential of your WordPress website. The developer version is avalible [here](https://github.com/yalogica/ifolders).
+Transform your WordPress media management experience with the iFolders plugin. Simplify organization, enhance efficiency, and take control of your content like never before. Try iFolders today and unlock the full potential of your WordPress website.
 
-###💼 GDPR AND PRIVACY
-* We do not collect or retain any information about our visitors or users
-* We also do not transmit any data to external servers
-* The purpose of our folder manager plugin is to help organize the WordPress media library, pages, posts and custom post types
+###💼 GDPR & Privacy
+* We do not collect or store any information about our visitors or users without their consent.
+* We also do not transfer any data to external servers without users' consent.
+* The purpose of our folder manager plugin is to help organize the WordPress media library, pages, posts, and custom post types.
 
 
 == Frequently Asked Questions ==
@@ -159,6 +159,9 @@ iFolders Pro license is valid for one domain (including subdomains).
 = Does the plugin modify the uploads directory? =
 No. The folders created by our plugin are virtual folders, so the WordPress uploads directory remains intact, as do its contents in the form of media files.
 
+= Where is the developer version hosted? =
+The developer version is avalible [here](https://github.com/yalogica/ifolders).
+
 = I'd like access to more features and support. How can I get this? =
 You can access additional features and support by visiting the CodeCanyon website and [purchasing the pro version](https://1.envato.market/getifolders). By purchasing the plugin, you get access to the full version of the iFolders WordPress plugin, automatic updates and support.
 
@@ -173,6 +176,9 @@ Best wishes, Avirtum team.
 
 
 == Changelog ===
+
+= 2.5.0 =
+* New: block for image gallery (Gutenberg)
 
 = 2.4.0 =
 * New: show media details on hover

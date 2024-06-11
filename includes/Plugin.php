@@ -19,6 +19,7 @@ class Plugin {
         load_plugin_textdomain( 'ifolders', false, dirname(IFOLDERS_PLUGIN_BASE_NAME) . '/languages/' );
 
         new Rest\Routes();
+        new Blocks\GalleryBlock();
         new System\Notice();
         new System\Folders();
         new System\Feedback();

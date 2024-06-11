@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: iFolders\n"
-"POT-Creation-Date: 2024-05-22 21:35+0300\n"
+"POT-Creation-Date: 2024-06-11 10:32+0400\n"
 "PO-Revision-Date: 2022-11-15 11:00+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -20,6 +20,50 @@ msgstr ""
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: assets/blocks/galleryblock/index.js:74
+msgid "Gallery Settings"
+msgstr ""
+
+#: assets/blocks/galleryblock/index.js:76
+msgid "Folder"
+msgstr ""
+
+#: assets/blocks/galleryblock/index.js:85
+msgid "Columns"
+msgstr ""
+
+#: assets/blocks/galleryblock/index.js:94
+msgid "Max Items"
+msgstr ""
+
+#: assets/blocks/galleryblock/index.js:102
+msgid "Image Size"
+msgstr ""
+
+#: includes/Blocks/GalleryBlock.php:19
+msgid "Thumbnail"
+msgstr ""
+
+#: includes/Blocks/GalleryBlock.php:20
+msgid "Medium"
+msgstr ""
+
+#: includes/Blocks/GalleryBlock.php:21
+msgid "Large"
+msgstr ""
+
+#: includes/Blocks/GalleryBlock.php:22
+msgid "Full size"
+msgstr ""
+
+#: includes/Blocks/GalleryBlock.php:72
+msgid "No folder selected."
+msgstr ""
+
+#: includes/Blocks/GalleryBlock.php:78
+msgid "The selected folder has no items."
+msgstr ""
 
 #: includes/Fallbacks/plugin-exist.php:14
 msgid ""
@@ -398,8 +442,8 @@ msgstr ""
 msgid "Edit Security Profile"
 msgstr ""
 
-#: includes/Views/modal-security-profile.php:16 includes/Views/settings.php:201
-#: includes/Views/settings.php:313
+#: includes/Views/modal-security-profile.php:16 includes/Views/settings.php:200
+#: includes/Views/settings.php:312
 msgid "Description"
 msgstr ""
 
@@ -423,8 +467,8 @@ msgstr ""
 msgid "Access Type"
 msgstr ""
 
-#: includes/Views/modal-security-profile.php:72 includes/Views/settings.php:263
-#: includes/Views/settings.php:326
+#: includes/Views/modal-security-profile.php:72 includes/Views/settings.php:262
+#: includes/Views/settings.php:325
 msgid "The table is empty"
 msgstr ""
 
@@ -482,7 +526,7 @@ msgid ""
 "version."
 msgstr ""
 
-#: includes/Views/proposal.php:7 includes/Views/settings.php:421
+#: includes/Views/proposal.php:7 includes/Views/settings.php:420
 msgid "Buy Now"
 msgstr ""
 
@@ -586,57 +630,57 @@ msgid ""
 "by simply hovering your cursor over an image."
 msgstr ""
 
-#: includes/Views/settings.php:164
+#: includes/Views/settings.php:163
 msgid "Disable search bar"
 msgstr ""
 
-#: includes/Views/settings.php:165
+#: includes/Views/settings.php:164
 msgid "Disable the display of the folder search bar."
 msgstr ""
 
-#: includes/Views/settings.php:174
+#: includes/Views/settings.php:173
 msgid "Replace media"
 msgstr ""
 
-#: includes/Views/settings.php:175
+#: includes/Views/settings.php:174
 msgid ""
 "Adds tools to the 'Attachment details' screen that can be used to select or "
 "upload an image to replace the current image while preserving its URL and "
 "properties."
 msgstr ""
 
-#: includes/Views/settings.php:180
+#: includes/Views/settings.php:179
 msgid ""
 "Note: Disable your browser cache and any WordPress caching plugins before "
 "use. Otherwise, you may find that this feature is not working properly."
 msgstr ""
 
-#: includes/Views/settings.php:187
+#: includes/Views/settings.php:186
 msgid "Delete fully"
 msgstr ""
 
-#: includes/Views/settings.php:188
+#: includes/Views/settings.php:187
 msgid ""
 "Enable full uninstall mode, the plugin will clear all its options and "
 "database tables after clicking the delete link in the WordPress plugins area."
 msgstr ""
 
-#: includes/Views/settings.php:197
+#: includes/Views/settings.php:196
 msgid "Save"
 msgstr ""
 
-#: includes/Views/settings.php:202
+#: includes/Views/settings.php:201
 msgid ""
 "Use this section to control who can view and edit folders. Simply create "
 "specific permissions for users and roles, then select a security profile for "
 "each folder type and apply it."
 msgstr ""
 
-#: includes/Views/settings.php:207
+#: includes/Views/settings.php:206
 msgid "Folder Types"
 msgstr ""
 
-#: includes/Views/settings.php:208
+#: includes/Views/settings.php:207
 msgid ""
 "This table shows the types of folders (media, pages, posts, etc.) supported "
 "by the plugin. To allow a user to create and edit folders of a specific "
@@ -644,47 +688,47 @@ msgid ""
 "If you don't find the desired folder type, try adding it manually."
 msgstr ""
 
-#: includes/Views/settings.php:214
+#: includes/Views/settings.php:213
 msgid "Add new folder type"
 msgstr ""
 
-#: includes/Views/settings.php:217
+#: includes/Views/settings.php:216
 msgid "Edit folder type"
 msgstr ""
 
-#: includes/Views/settings.php:220
+#: includes/Views/settings.php:219
 msgid "Delete selected folder types"
 msgstr ""
 
-#: includes/Views/settings.php:231 includes/Views/settings.php:297
+#: includes/Views/settings.php:230 includes/Views/settings.php:296
 msgid "Refresh"
 msgstr ""
 
-#: includes/Views/settings.php:247
+#: includes/Views/settings.php:246
 msgid "Folder type"
 msgstr ""
 
-#: includes/Views/settings.php:248 includes/Views/settings.php:312
+#: includes/Views/settings.php:247 includes/Views/settings.php:311
 msgid "Security profile"
 msgstr ""
 
-#: includes/Views/settings.php:249
+#: includes/Views/settings.php:248
 msgid "Status"
 msgstr ""
 
-#: includes/Views/settings.php:257
+#: includes/Views/settings.php:256
 msgid "enabled"
 msgstr ""
 
-#: includes/Views/settings.php:257
+#: includes/Views/settings.php:256
 msgid "disabled"
 msgstr ""
 
-#: includes/Views/settings.php:273
+#: includes/Views/settings.php:272
 msgid "Security profiles"
 msgstr ""
 
-#: includes/Views/settings.php:274
+#: includes/Views/settings.php:273
 msgid ""
 "This table is used to create and manage security profiles that can be "
 "selected and linked in the table above. Custom security profiles allow you "
@@ -692,167 +736,167 @@ msgid ""
 "creating, viewing, editing, deleting, and attaching items to a folder."
 msgstr ""
 
-#: includes/Views/settings.php:280
+#: includes/Views/settings.php:279
 msgid "Add new security profile"
 msgstr ""
 
-#: includes/Views/settings.php:283
+#: includes/Views/settings.php:282
 msgid "Edit security profile"
 msgstr ""
 
-#: includes/Views/settings.php:286
+#: includes/Views/settings.php:285
 msgid "Delete selected security profiles"
 msgstr ""
 
-#: includes/Views/settings.php:338
+#: includes/Views/settings.php:337
 msgid "Import from other plugins"
 msgstr ""
 
-#: includes/Views/settings.php:339
+#: includes/Views/settings.php:338
 msgid ""
 "Import folders and attachments from third-party plugins for the media "
 "library."
 msgstr ""
 
-#: includes/Views/settings.php:348
+#: includes/Views/settings.php:347
 msgid "Import now"
 msgstr ""
 
-#: includes/Views/settings.php:356
+#: includes/Views/settings.php:355
 msgid "Export"
 msgstr ""
 
-#: includes/Views/settings.php:357
+#: includes/Views/settings.php:356
 msgid ""
 "The current folder structure with attachments will be exported to a CSV file."
 msgstr ""
 
-#: includes/Views/settings.php:360
+#: includes/Views/settings.php:359
 msgid "Export Now"
 msgstr ""
 
-#: includes/Views/settings.php:361
+#: includes/Views/settings.php:360
 msgid "Download file"
 msgstr ""
 
-#: includes/Views/settings.php:367
+#: includes/Views/settings.php:366
 msgid "Import"
 msgstr ""
 
-#: includes/Views/settings.php:368
+#: includes/Views/settings.php:367
 msgid "Select a CSV file with the folder structure and attachments to import."
 msgstr ""
 
-#: includes/Views/settings.php:374
+#: includes/Views/settings.php:373
 msgid "Clearing all existing folders before import"
 msgstr ""
 
-#: includes/Views/settings.php:375
+#: includes/Views/settings.php:374
 msgid "Import attachments"
 msgstr ""
 
-#: includes/Views/settings.php:377
+#: includes/Views/settings.php:376
 msgid "Import Now"
 msgstr ""
 
-#: includes/Views/settings.php:384
+#: includes/Views/settings.php:383
 msgid "Folder counters recalculation"
 msgstr ""
 
-#: includes/Views/settings.php:385
+#: includes/Views/settings.php:384
 msgid ""
 "This action will completely recalculate all item counters that are attached "
 "to folders."
 msgstr ""
 
-#: includes/Views/settings.php:388
+#: includes/Views/settings.php:387
 msgid "Recalculate"
 msgstr ""
 
-#: includes/Views/settings.php:394
+#: includes/Views/settings.php:393
 msgid "Clear data"
 msgstr ""
 
-#: includes/Views/settings.php:395
+#: includes/Views/settings.php:394
 msgid ""
 "This action will deactivate the plugin iFolders and delete all its data and "
 "settings and return you to the default WordPress state before installing the "
 "plugin."
 msgstr ""
 
-#: includes/Views/settings.php:398
+#: includes/Views/settings.php:397
 msgid "Clear now"
 msgstr ""
 
-#: includes/Views/settings.php:409 includes/Views/settings.php:439
+#: includes/Views/settings.php:408 includes/Views/settings.php:438
 msgid "Get iFolders Pro"
 msgstr ""
 
-#: includes/Views/settings.php:410
+#: includes/Views/settings.php:409
 msgid "Unlock all features and premium support"
 msgstr ""
 
-#: includes/Views/settings.php:412
+#: includes/Views/settings.php:411
 msgid "Create Subfolders"
 msgstr ""
 
-#: includes/Views/settings.php:413
+#: includes/Views/settings.php:412
 msgid "Sort Options"
 msgstr ""
 
-#: includes/Views/settings.php:414
+#: includes/Views/settings.php:413
 msgid "Advanced User Rights"
 msgstr ""
 
-#: includes/Views/settings.php:415
+#: includes/Views/settings.php:414
 msgid "Organize Pages, Posts and Custom Post Types"
 msgstr ""
 
-#: includes/Views/settings.php:416
+#: includes/Views/settings.php:415
 msgid "Page Builders: Elementor, Beaver, Divi, Brizy etc."
 msgstr ""
 
-#: includes/Views/settings.php:417
+#: includes/Views/settings.php:416
 msgid "Lifetime License"
 msgstr ""
 
-#: includes/Views/settings.php:418
+#: includes/Views/settings.php:417
 msgid "VIP Support"
 msgstr ""
 
-#: includes/Views/settings.php:430
+#: includes/Views/settings.php:429
 msgid "Congratulations!!!"
 msgstr ""
 
-#: includes/Views/settings.php:431
+#: includes/Views/settings.php:430
 msgid "You are using the iFolders Pro version."
 msgstr ""
 
-#: includes/Views/settings.php:440
+#: includes/Views/settings.php:439
 msgid "Unlock all features and premium support."
 msgstr ""
 
-#: includes/Views/settings.php:448
+#: includes/Views/settings.php:447
 msgid "YouTube Channel"
 msgstr ""
 
-#: includes/Views/settings.php:449
+#: includes/Views/settings.php:448
 msgid "Watch our video to learn about all the features of iFolders."
 msgstr ""
 
-#: includes/Views/settings.php:457
+#: includes/Views/settings.php:456
 msgid "Support"
 msgstr ""
 
-#: includes/Views/settings.php:458
+#: includes/Views/settings.php:457
 msgid "Quickly get direct help from our qualified support team."
 msgstr ""
 
-#: includes/Views/settings.php:466
+#: includes/Views/settings.php:465
 msgid "Suggest a Feature"
 msgstr ""
 
-#: includes/Views/settings.php:467
+#: includes/Views/settings.php:466
 msgid "Do you have ideas or suggestions for iFolders? We'd love to hear them."
 msgstr ""
 

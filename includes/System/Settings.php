@@ -45,8 +45,8 @@ class Settings {
                             'title' => SecurityProfilesModel::getPredefinedTitle( SecurityProfilesModel::PERSONAL_FOLDERS )
                         ],
                     ],
-                    'token' => ConfigModel::getToken(),
-                    'plugins_to_import' => ImportModel::getPluginsToImport()
+                    'plugins_to_import' => ImportModel::getPluginsToImport(),
+                    'token' => ConfigModel::getToken()
                 ],
                 'msg' => HelperModel::getMessagesForSettings(),
                 'api' => [

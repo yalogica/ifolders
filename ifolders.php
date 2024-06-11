@@ -3,7 +3,7 @@
  * Plugin Name: iFolders
  * Plugin URI: https://1.envato.market/getifolders
  * Description: A better way to organize WordPress media library, posts, pages, users & custom post types in a logical way. Just drag & drop items into folders you and use them easely.
- * Version: 2.4.0
+ * Version: 2.5.0
  * Requires at least: 4.6
  * Requires PHP: 7.0
  * Author: Avirtum
@@ -35,7 +35,7 @@ if( get_option( 'ifolders_settings' ) ) {
 }
 
 define( 'IFOLDERS_PLUGIN_NAME', 'ifolders' );
-define( 'IFOLDERS_PLUGIN_VERSION', '2.4.0' );
+define( 'IFOLDERS_PLUGIN_VERSION', '2.5.0' );
 define( 'IFOLDERS_PLUGIN_DB_VERSION', '2.0.0');
 define( 'IFOLDERS_PLUGIN_DB_TABLE_PREFIX', 'ifolders' );
 define( 'IFOLDERS_PLUGIN_SHORTCODE_NAME', 'ifolders' );
